@@ -1,6 +1,6 @@
 save(fpkm,datTraits,file = 'GSE9106-wgcna-input-new8.RData')
 }
-load('GSE52093-wgcna-input.RData')
+load('GSE9106-wgcna-input.RData')
 library(WGCNA)
 allowWGCNAThreads()
 ALLOW_WGCNA_THREADS=4
